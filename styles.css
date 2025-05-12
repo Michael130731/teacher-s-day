@@ -1,4 +1,5 @@
 body {
+    display: flex; /* 추가 필요 */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -12,12 +13,14 @@ body {
     overflow-y: scroll;
 }
 
+
 #timer {
+    align-items: center;
     font-size: 3em;
     font-weight: 100;
     color: white;
-    padding: 20px;
-    width: 1400px;
+    max-width: 100%;
+    width: auto;
 }
 
 #timer div {
@@ -46,7 +49,9 @@ body {
 }
 
 img {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     height: auto;
     display: block;
 }
