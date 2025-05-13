@@ -17,8 +17,8 @@ body {
 #timer {
     align-items: center;
     font-size: 3em;
-    font-weight: 100;
-    color: white;
+    font-weight: bold;
+    color: #90cbf3;
     max-width: 100%;
     width: auto;
 }
@@ -27,18 +27,18 @@ body {
     display: inline-block;
     min-width: 180px;
     padding: 30px;
-    background: #020b43;
+    background: white;
     border-radius: 10px;
-    border: 2px solid #030d52;
     margin: 30px;
+    box-shadow: 0px 0px 10px gray;
 }
 
 #timer div span {
-    color: #ffffff;
+    color: #90cbf3;
     display: block;
     margin-top: 30px;
     font-size: .35em;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 #later {
@@ -46,6 +46,8 @@ body {
     font-weight: 100;
     color: white;
     margin-top: -10px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px gray;
 }
 
 img {
