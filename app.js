@@ -5,7 +5,7 @@ function updateTimer() {
         document.getElementById("body").style = 'display: block;'
         document.getElementById("body").innerHTML = '<img src="편지0.png">'
     } else if (new URLSearchParams(location.hash.substring(1)).get("no") == 1001) {
-        window.location.href = "https://michael130731.github.io/teacher-s-day1";
+        window.location.href = "https://michael130731.github.io/teacher-s-day1/";
     } else {
         if (0 < diff) {
             const future = Date.parse("2025/05/15 09:00:00");
@@ -19,7 +19,7 @@ function updateTimer() {
                 if (teacherNo == 0) {
                     document.getElementById("body").innerHTML = '<img src="편지0.png">'
                 } else if (teacherNo == 1) {
-                    window.location.href = "https://michael130731.github.io/teacher-s-day1";
+                    window.location.href = "https://michael130731.github.io/teacher-s-day1/";
   }
 }
         }
