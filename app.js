@@ -19,7 +19,7 @@ function updateTimer() {
                 if (teacherNo == 0) {
                     document.getElementById("body").innerHTML = '<img src="편지0.png">'
                 } else if (teacherNo == 1) {
-                    window.location.href = "http://127.0.0.1:5500/teacher'sDay/임현영 6-3 선생님";
+                    window.location.href = "https://michael130731.github.io/teacher-s-day1";
   }
 }
         }
